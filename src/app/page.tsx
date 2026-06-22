@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import IsometricVillage from "@/components/IsometricVillage";
 import TransmissionTimeline from "@/components/TransmissionTimeline";
 import RegionMap from "@/components/RegionMap";
 import BodaccFeed from "@/components/BodaccFeed";
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <IsometricVillage />
       <TransmissionTimeline />
       <RegionMap />
       <BodaccFeed />
